@@ -1,7 +1,9 @@
-<div>
-    <!-- It is never too late to be what you might have been. - George Eliot -->
-    <x-layouts.app>
-        <livewire:projects.show :project='$project' />
+<x-layouts.app>
+    <div class="grid grid-cols-3 gap-6">
+        <livewire:projects.show :$project />
+        
         <livewire:projects.proposals :$project />
-    </x-layouts.app>
-</div>
+
+        
+    </div>
+</x-layouts.app>

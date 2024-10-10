@@ -1,7 +1,6 @@
 <div>
-    {{-- If you look to others for fulfillment, you will never truly be fulfilled. --}}
-
-    <input wire:model.live="search />
+<h1>Meu componente livewire</h1>
+<input wire:model.live="search" />
     <br>
 
     <ul>
