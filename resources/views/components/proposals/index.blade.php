@@ -5,7 +5,7 @@
                 Propostas
             </h2>
             <div class="text-[#8C8C9A] text-[12px]">
-            Publicado {{ $this->lastProposalTime }}
+                Publicado {{ $this->lastProposalTime }}
             </div>
         </div>
         <div class="flex items-center space-x-2">
@@ -18,7 +18,7 @@
         <div class="flex flex-col gap-7">
 
             @foreach ($proposals as $proposal)
-                <x-proposals.item :$proposal :position="$loop->index" />
+            <x-proposals.item :$proposal :position="$loop->index" />
             @endforeach
         </div>
 

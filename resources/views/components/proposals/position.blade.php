@@ -6,7 +6,7 @@
     'bg-[#FFEDD5] text-[#B45309]' => $position == 2,
     'bg-[#F1F5F9]' => $position > 2,
     ])>
-    
+
     @if ($position
     < 3)
         <x-ui.icons.trophy class="w-[24px] h-[24px]" />

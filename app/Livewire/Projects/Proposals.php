@@ -31,7 +31,7 @@ class Proposals extends Component
         $this->qty += 5;
     }
     #[On('proposal::created')]
-    
+
 
     public function render()
     {
